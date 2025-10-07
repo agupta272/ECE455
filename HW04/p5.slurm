@@ -8,5 +8,5 @@
 #SBATCH --output=vector_add_streams.output
 
 module load nvidia/cuda
-nvcc vector_ add_streams.cu -o vector_add_streams
+nvcc vector_add_streams.cu -o vector_add_streams
 ./vector_add_streams
